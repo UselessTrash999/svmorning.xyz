@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SV Morning Read | Your Personalized Tech & Info Feed</title>
+    <meta name="description" content="Your daily personalized info feed for tech professionals. Get curated links on AI, Web3, Biotech, Frontend, Backend, and more. The essential morning read for Silicon Valley's engineers, PMs, and investors.">
+    <meta name="keywords" content="silicon valley morning read, info feed, tech, AI, Web3, Biotech, Frontend, Backend, Product Manager, Engineer, Startups, tech news, developer resources">
+    <meta name="author" content="svmorning.xyz">
 
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://svmorning.xyz/">
+    <meta property="og:title" content="SV Morning Read | Your Personalized Tech & Info Feed">
+    <meta property="og:description" content="The essential morning read for Silicon Valley's tech professionals.">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://svmorning.xyz/">
+    <meta property="twitter:title" content="SV Morning Read | Your Personalized Tech & Info Feed">
+    <meta property="twitter:description" content="The essential morning read for Silicon Valley's tech professionals.">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☀️</text></svg>">
+
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-40 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="/" class="text-2xl font-bold text-gray-900">
+                        svmorning.xyz
+                    </a>
+                </div>
+                <div class="text-sm text-gray-500">
+                    Your Daily Tech Info Feed
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+
+        <section id="preferences" class="mb-12">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-2">Hello, Silicon Valley.</h1>
+            <p class="text-lg text-gray-600 mb-6">Select your interests to personalize your morning read.</p>
+            
+            <div id="filters-container" class="space-y-5">
+                </div>
+        </section>
+
+        <section id="feed">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 border-b pb-3" id="feed-title">All Resources</h2>
+            
+            <div id="feed-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 mt-12">
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500">
+            <p>&copy; <span id="current-year"></span> svmorning.xyz. All Rights Reserved.</p>
+            <p class="mt-1">Built for the innovators and dreamers of Silicon Valley.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
